@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  background-color: #F3F3F3;
+  height: 100vh;
+  width: 100%;
+}
+.cabeça i{
+  display: none;
+  padding-left: 100px;
+  position: absolute;
+  top: 40px;
+  font-size: 40px;
+  cursor: pointer;
+
+}
+
+.cabeça .menus ul{
+  padding-left: 230px;
+  padding-top: 28px;
+}
+.cabeça .menus ul li{
+  display: inline;
+ 
+}
+.cabeça .menus ul li a{
+  color: #645243;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 1.2s;
+
+}
+.cabeça .menus ul li a:hover{
+  color: black;
+}
+
+
+.paragrafos{
+  padding-left: 200px;
+  padding-top: 120px;
+}
+.paragrafos h1{
+  color: #965A33;
+  font-size: 95px;
+  font-weight: 900;
+  line-height: 100px;
+}
+.paragrafos h2{
+  font-weight: 400;
+  font-size: 5.1rem;
+  line-height: 60px;
+
+}
+.paragrafos p{
+  line-height: 60px;
+  font-weight: 300;
+}
+.background{
+  float: right;
+  position: relative;
+  margin-top: -500px;
+ 
+}
+.background img{
+  width: 400px;
+  margin: 60px 160px;
+}
+
+.car{
+  position: absolute;
+  right: 80px;
+  top: 70px;
+}
+.car img{
+  width: 450px;
+  height: 689px;
+  left: 998px;
+  top: 122px;
+}
+.menus1{
+  display: none;
+}
+@media screen  and (max-width: 720px){
+  .cabeça i {
+   display: block;
+   margin: auto;
+   margin-left: -40px
+  }
+  .background{
+    display: none;
+  }
+  .car img {
+    margin-top: 330px;
+    width: 300px;
+    height: 500px;
+    
+ 
+   
+  }
+  .paragrafos {
+    margin-top: 100px;
+    padding: 0;
+    padding-left: 25%; 
+  }
+  .paragrafos h1{
+    font-size: 70px;
+  }
+  .paragrafos h2{
+    font-size: 50px;
+  }
+  .menus{
+    display: none;
+  }
+
+}
+  
+
+

@@ -119,6 +119,9 @@ body{
   .menus{
     display: none;
   }
+  .menus1{
+    display: block;
+  }
 
 }
   
